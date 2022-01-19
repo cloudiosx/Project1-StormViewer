@@ -7,6 +7,8 @@
 
 import UIKit
 
+// Designing our interface
+
 class ViewController: UITableViewController {
     var pictures = [String]()
     
@@ -29,9 +31,13 @@ class ViewController: UITableViewController {
         print(pictures)
     }
     
+    // Showing lots of rows
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return pictures.count
     }
+    
+    // Dequeuing cells
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath)
