@@ -18,8 +18,6 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        title = selectedImage
-        
         // Large titles
         
         navigationItem.largeTitleDisplayMode = .never
