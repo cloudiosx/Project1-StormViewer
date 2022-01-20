@@ -16,6 +16,12 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        title = "Storm Viewer"
+        
+        // Large titles
+        
+        navigationController?.navigationBar.prefersLargeTitles = true
+        
         // Listing Images with FileManager
         
         let fm = FileManager.default
