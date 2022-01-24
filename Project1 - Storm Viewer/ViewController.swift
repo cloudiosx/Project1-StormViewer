@@ -22,6 +22,10 @@ class ViewController: UITableViewController {
         
         navigationController?.navigationBar.prefersLargeTitles = true
         
+        // UIActivityViewController
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
+        
         // Listing Images with FileManager
         
         let fm = FileManager.default
@@ -64,6 +68,12 @@ class ViewController: UITableViewController {
             // 3. Push it onto the navigation controller
             navigationController?.pushViewController(detailViewController, animated: true)
         }
+    }
+    
+    @objc func shareTapped() {
+        let vc = UIActivityViewController(activityItems: ["You should use this app"], applicationActivities: [])
+        vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        present(vc, animated: true)
     }
 }
 
