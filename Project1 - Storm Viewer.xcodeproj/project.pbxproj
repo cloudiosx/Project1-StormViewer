@@ -23,6 +23,7 @@
 		6356EA6D27930058005DC9D0 /* nssl0043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6356EA6327930058005DC9D0 /* nssl0043.jpg */; };
 		6356EA6E27930058005DC9D0 /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6356EA6427930058005DC9D0 /* nssl0033.jpg */; };
 		6356EA6F27930058005DC9D0 /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6356EA6527930058005DC9D0 /* nssl0034.jpg */; };
+		638BA09227C1A02200964334 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638BA09127C1A02200964334 /* ImageCell.swift */; };
 		63A5990D2798757700F7A23B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A5990C2798757700F7A23B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		6356EA6327930058005DC9D0 /* nssl0043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0043.jpg; sourceTree = "<group>"; };
 		6356EA6427930058005DC9D0 /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
 		6356EA6527930058005DC9D0 /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
+		638BA09127C1A02200964334 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		63A5990C2798757700F7A23B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 				6356EA492792FE03005DC9D0 /* SceneDelegate.swift */,
 				6356EA4B2792FE03005DC9D0 /* ViewController.swift */,
 				63A5990C2798757700F7A23B /* DetailViewController.swift */,
+				638BA09127C1A02200964334 /* ImageCell.swift */,
 				6356EA4D2792FE03005DC9D0 /* Main.storyboard */,
 				6356EA502792FE05005DC9D0 /* Assets.xcassets */,
 				6356EA522792FE05005DC9D0 /* LaunchScreen.storyboard */,
@@ -193,6 +196,7 @@
 				6356EA482792FE03005DC9D0 /* AppDelegate.swift in Sources */,
 				6356EA4A2792FE03005DC9D0 /* SceneDelegate.swift in Sources */,
 				63A5990D2798757700F7A23B /* DetailViewController.swift in Sources */,
+				638BA09227C1A02200964334 /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
